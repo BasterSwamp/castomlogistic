@@ -151,8 +151,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn img {
   margin-right: 16px;
 }
-.btn:hover {
-  background: #FCF311;
+@media (min-width: 61.99875em) {
+  .btn:hover {
+    background: #FCF311;
+  }
 }
 
 .header {
